@@ -1,5 +1,7 @@
 ## Clase 02 - Git Desarrollo Colaborativo
 
+![alt text](image.png)
+
 ## Repaso de comandos para persistir los cambios de archivos dentro del repositorio
 
 
