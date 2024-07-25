@@ -32,11 +32,39 @@ git restore --staged
 git add .
 ```
 ```sh
-git add "file_Name"
+git add <nombre del archivo>>
 ```
 
 ## Pasar a Local Repository - persistir los cambios. Usar un nombre referencial que me ayude con el contenido
 
 ```sh
 git commit -m "commit_Name"
+```
+
+## Corrección en un Commit.(tanto mensaje como contenido)
+```sh
+git commit --amend -m "Nombre del commit"
+```
+
+## Ver cambios
+```sh
+git diff
+```
+
+## Visualizar instantaneas de los commits
+```sh
+git log #versión larga
+git log --oneline #versión corta
+git log --oneline -2 #ver una cantidad limitada de commits
+
+```
+
+## Salir de GIT LESS
+
+```sh
+q
+```
+## Separar un commit
+```sh
+git add --patch
 ```
