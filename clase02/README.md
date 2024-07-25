@@ -81,3 +81,21 @@ git add --patch
 ```sh
 touch .gitignore
 ```
+
+## Subiendo nuestro local al remoto
+```sh
+git remote <alias> <url>
+git remote add origin XXXXX
+```
+
+## Ver si tengo ya un remoto local
+```sh
+git remote #versión corta
+git remote -v #versión detallada
+```
+
+## Para subir los cambios a github
+```sh
+git push -u <remoto> <rama local>
+git push -u origin main
+```
