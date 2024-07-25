@@ -77,3 +77,7 @@ E -> Yo voy a marcar por linea que si y que no
 git add --patch
 ```
 
+## .gitignore (archivo para desestimar carpetas y archivos que no quiero que formen parte del repositorio)
+```sh
+touch .gitignore
+```
