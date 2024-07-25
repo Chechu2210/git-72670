@@ -64,7 +64,16 @@ git log --oneline -2 #ver una cantidad limitada de commits
 ```sh
 q
 ```
-## Separar un commit
+
+
+## Separar un commit: commit de parte de un archivo. Entro en un menú interactivo y voy decidiendo que hacer
+Y -> si quiero mandar al Staging Area el hunk
+N -> si NO quiero
+S -> Split> Le propongo a git que intente hacer la división
+E -> Yo voy a marcar por linea que si y que no
+
+
 ```sh
 git add --patch
 ```
+
