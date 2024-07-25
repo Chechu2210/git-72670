@@ -99,3 +99,20 @@ git remote -v #versión detallada
 git push -u <remoto> <rama local>
 git push -u origin main
 ```
+
+## Actualizar la metadata sin traerme los cambios
+```sh
+git fetch
+```
+
+## Visualizar lo ocurrido
+```sh
+git branch -r
+git branch -a
+git branch -av
+```
+
+## El PULL trae la metadata y trae los datos
+```sh
+git pull
+```
